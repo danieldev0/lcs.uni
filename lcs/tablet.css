@@ -1,0 +1,31 @@
+.main-nav {
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+.latest {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+}
+.latest h2 {
+    text-align: center;
+}
+.art-wrap {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.art1 {
+ width: 300px;
+ height: auto;
+ margin: 20px;
+}
+.art1 picture {
+    height: auto;
+}
+.art1-title {
+    font-size: 1rem;
+    padding: 2px;
+}

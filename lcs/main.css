@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+header nav {
+    background-color: rgb(202, 16, 16);
+}
+
+.main-nav {
+    min-width: 320px;
+    max-width: 900px;
+    min-height: auto;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+.main-nav--item {
+    padding: 10px 20px 10px 7px;
+}
+
+.main-nav--item:nth-child(1) {
+    border-bottom: 2px solid white;
+}
+
+.main-nav--item a {
+    color: white;
+}
+
+.search-box {
+    min-width: 320px;
+    max-width: 900px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid red;
+
+}
+
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+
+.options select {
+    border: none;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.options50 {
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    background-image: url("https://www.freedomforuminstitute.org/wp-content/uploads/2015/01/printLogo2.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.input {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.input span {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background-image: url("https://w7.pngwing.com/pngs/213/564/png-transparent-magnifying-glass-magnification-magnifying-glass-glass-logo-light.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.input input {
+    width: 100px;
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.slide-container {
+    min-width: 320px;
+    max-width: 700px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.slide-article {
+    margin: 15px 10px;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+.arrow-right {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-image: url("https://www.pngfind.com/pngs/m/287-2870203_file-antu-arrow-right-svg-arrow-right-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0 15px;
+    top: calc(50% - 70px);
+    right: 0;
+}
+
+.arrow-left {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-image: url("https://www.pngfind.com/pngs/m/287-2870203_file-antu-arrow-right-svg-arrow-right-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0 15px;
+    transform: rotate(180deg);
+    top: calc(50% - 70px);
+    left: 0;
+}
+
+.img-part img {
+    width: 100%;
+}
+
+.title-part {
+    background-color: rgb(210, 210, 210);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title-part h2 {
+    margin: -2px;
+    padding: 10px 10px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+}
+
+.title-part p {
+    padding: 10px 10px;
+}
+
+.title-part p a {
+    color: rgb(181, 2, 2);
+}
+
+.latest {
+    min-width: 320px;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid red;
+}
+
+.latest>h2 {
+    font-variant: small-caps;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.art1 {
+    min-width: 288px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.art1 img {
+    width: 150px;
+    height: 120px;
+}
+
+.art1 h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.art1 h2 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.art1-title {
+    margin-left: 10px;
+}
+
+@media (min-width: 516px) {
+    .main-nav {
+        height: 60px;
+        align-items: center;
+    }
+}
